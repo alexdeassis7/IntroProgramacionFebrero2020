@@ -38,8 +38,31 @@ public class AppPrincipal {
 		System.out.println("***** Estado post modificacion de los atributos del objeto a3 *****" );
 		System.out.println(a3.toString());
 		
+		System.out.println("#############################################################################################");
+		System.out.println("#############################################################################################");
+		System.out.println("#############################################################################################");
 		
+		/**Invocamos a los metodos de la clase Alumno */
+		System.out.println("************* invoco metodos de a1**************");
+		a1.caminar();
+		a1.rendirExamen("Oral", "Disenio de algoritmos");
+		a1.realizarTP("Programacion 2");
+		a1.estudiar("data base");
 		
+		/**Invocamos a los metodos de la clase Alumno */
+		System.out.println("************* invoco metodos de a2**************");
+		a2.caminar();
+		a2.rendirExamen("escrita", "Metodologia de Estudio");
+		a2.realizarTP("Algebra2");
+		a2.estudiar("Analisis matematico 2");
+		
+		/**Invocamos a los metodos de la clase Alumno */
+		System.out.println("************* invoco metodos de a3**************");
+		a3.caminar();
+		a3.rendirExamen("Practica", "Angular JS");
+		a3.realizarTP("Arquitectura de procesamiento");
+		a3.estudiar("Disenio Grafico");		
+	
 	}
 
 }

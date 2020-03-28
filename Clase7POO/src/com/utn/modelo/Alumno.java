@@ -12,6 +12,21 @@ public class Alumno {
 		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
 	}
 	
+	public void estudiar(String materia) {
+		System.out.println("soy " + nombre + " y estoy estudiando " + materia ); 
+	}
+	
+	public void caminar() {
+		System.out.println("soy " + nombre + " " + apellido + " y estoy caminando al colegio " );
+	}
+	
+	public void rendirExamen (String tipoExamen , String materia) {  // Variables automaticas 
+		System.out.println("estoy rindiendo el examen de " + materia + " de forma " + tipoExamen);
+	}
+	
+	public void realizarTP(String materia) {
+		System.out.println("estoy realizando el tp de " + materia );
+	}
 
 	
 	

@@ -21,11 +21,11 @@ public class AppPrincipal {
 		// modificamos todos los estados de cada atributo
 		
 		// f1 cargado por teclado 
-//		System.out.println("ingrese el nombre del futbolista");
-//		f1.nombre = teclado.nextLine();
-//		
-//		System.out.println("ingrese el apellido del futbolista");
-//		f1.apellido = teclado.nextLine();
+		System.out.println("ingrese el nombre del futbolista");
+		f1.nombre = teclado.nextLine();
+		
+		System.out.println("ingrese el apellido del futbolista");
+		f1.apellido = teclado.nextLine();
 //		
 //		System.out.println("ingrese la edad del futbolista");
 //		f1.edad = teclado.nextInt();
@@ -60,6 +60,16 @@ public class AppPrincipal {
 		System.out.println(f1.toString());
 		System.out.println(m1.toString());
 		System.out.println(e1.toString());
+		
+		//invocamos a los metodos de la clase masajista 
+		m1.concentrarse();
+		m1.viajar();
+		m1.darMasaje(f1);
+		
+		
+		
+		
+		
 
 	}
 
